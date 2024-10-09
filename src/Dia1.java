@@ -1,6 +1,6 @@
-public class Main {
+public class Dia1 {
     public static void main(String[] args) {
-        System.out.print("Hello and welcome! \n");
+        System.out.print("Hello world! \n");
 
         for (int i = 1; i <= 5; i++) {
             System.out.println("loop");
@@ -26,6 +26,7 @@ public class Main {
         System.out.println("Divisão dos numeros");
         System.out.println(div);
         System.out.println("A divisão é impar? ");
+        
         if (div % 2 != 0) System.out.println("sim");
         else System.out.println("não");
 
